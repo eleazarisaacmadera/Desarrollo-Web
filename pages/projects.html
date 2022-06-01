@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projects</title>
 
+<!-- Boostrap -->
+ <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
+
 <!-- CSS -->
 
 <link rel="stylesheet" href="../style.css">
@@ -29,7 +32,7 @@
 <header>
 
 <nav class="grid-container">
-<div class="grid-item"><a href="/index.html"> <img src="../imagenes/logo-web.jpg" height="85" alt=""> </a></div>
+<div class="grid-item"><a href="../index.html"> <img src="../imagenes/logo-web.jpg" height="85" alt=""> </a></div>
 <div class="grid-item2">
     <ul>
         <a class="bio" href="../pages/bio.html">Bio</a>
@@ -45,9 +48,34 @@
 
 <!--Fin contenedor header-->
 
-   <div class="cover-projects">
-       <img src="../imagenes/cover-projects.jpg" height="450" alt="">
-   </div>
+<section>
+
+<div id="carouselCrossfade" class="carousel slide carousel-fade pointer-event" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="../imagenes/carruselp.jpg" class="d-block w-100" alt="Slide 1">
+      </div>
+      <div class="carousel-item">
+        <img src="../imagenes/carruselp1.jpg" class="d-block w-100" alt="Slide 2">
+      </div>
+      <div class="carousel-item">
+        <img src="../imagenes/carruselp3.jpg" class="d-block w-100" alt="Slide 3">
+      </div>
+    </div>
+ 
+      
+    </div>
+    <a class="carousel-control-prev" href="#carouselCrossfade" role="button" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselCrossfade" role="button" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </a>
+  </div>
+
+</section>
 
     <!--Persona-->
 
@@ -84,6 +112,9 @@
     </ul>
 </nav>
 </footer>
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
 
 </body>
 </html>
